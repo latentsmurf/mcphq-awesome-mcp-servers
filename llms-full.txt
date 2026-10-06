@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 194 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 195 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -492,6 +492,18 @@ Investigate errors, releases, and performance issues in Sentry.
 - Official: yes
 - Tags: observability, errors, monitoring
 - Category: Developer Tools and Code Intelligence
+
+### SkillDB
+
+Search reusable AI agent skills through an installable TypeScript MCP server; full skill content requires a Pro or Studio account.
+
+- URL: https://github.com/devchad-cmd/skilldb-sdk
+- Language: TypeScript
+- Provider: SkillDB
+- Official: yes
+- Tags: agent-skills, developer-tools, search
+- Category: Developer Tools and Code Intelligence
+- Streamable HTTP endpoint: https://skilldb.dev/api/mcp
 
 ### Sourcegraph Cody MCP
 

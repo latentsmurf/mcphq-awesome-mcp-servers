@@ -2296,6 +2296,23 @@
     "official": false
   },
   {
+    "name": "SkillDB",
+    "url": "https://github.com/devchad-cmd/skilldb-sdk",
+    "description": "Search reusable AI agent skills through an installable TypeScript MCP server; full skill content requires a Pro or Studio account.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "SkillDB",
+    "tags": [
+      "agent-skills",
+      "developer-tools",
+      "search"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://skilldb.dev/api/mcp"
+    }
+  },
+  {
     "name": "Constitution Lint MCP Server",
     "url": "https://github.com/joeyycli/constitution-lint-action",
     "description": "Lints CLAUDE.md-style AI agent constitution files for missing operational guardrails: spend limits, injection defense, escalation paths, and secrets handling.",
